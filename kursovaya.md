@@ -82,8 +82,7 @@ GPS (Global Positioning System) представляет собой глобал
 ### Формула псевдодальности
 
 $$
-D = c \cdot t
-\tag{1}
+D = c \cdot t.
 $$
 
 где:
