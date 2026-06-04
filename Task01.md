@@ -110,15 +110,10 @@ $$
 x=\sin(\Delta\lambda)\cos(\varphi_2)
 $$
 
-$$
-y=
-\cos(\varphi_1)\sin(\varphi_2)
--
-\sin(\varphi_1)\cos(\varphi_2)\cos(\Delta\lambda)
-$$
+$$y=\cos(\varphi_1)\sin(\varphi_2)-\sin(\varphi_1)\cos(\varphi_2)\cos(\Delta\lambda)$$
 
 $$
-Az=\operatorname{atan2}(x,y)
+Az=\text{atan2}(x,y)
 $$
 
 После перевода результата в градусы и нормализации диапазона получаем:
